@@ -1,0 +1,130 @@
+body {
+    background-color: #eceef1;
+    float: center;
+}
+
+
+/* body */
+
+
+/* navbar*/
+
+.navbar {
+    display: inline-block;
+    align-items: right;
+    width: 100%;
+    height: 120px;
+    margin: 100px 5px;
+}
+
+#nav-text {
+    text-align: right;
+    width: 100%;
+}
+
+#forgot-link {
+    text-align: right;
+    width: 100%;
+}
+
+#sign-bottom {
+    width: 100%;
+    background-color: rgba(60, 60, 253, 0.801);
+    color: white;
+    border: 1px solid black;
+    border-radius: 3px;
+    height: 30px;
+    width: 10%;
+    padding: 8px 11px;
+    align-items: right;
+}
+
+
+/* form*/
+
+.container {
+    text-align: center;
+    margin-top: 100px;
+}
+
+#logo {
+    width: 118px;
+    height: 38px;
+}
+
+.container-down {
+    text-align: center;
+}
+
+.icon {
+    width: 75px;
+    height: 20px;
+    margin-right: 5px;
+}
+
+.list-center {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: inline-flex;
+}
+
+.form-top {
+    background-color: white;
+    padding: 5px;
+    margin-right: 475px;
+    margin-left: 500px;
+    border: 1px solid #c6c7cc;
+}
+
+.form-bottom {
+    background-color: #ECEEF1;
+    padding: 5px;
+    margin-right: 475px;
+    margin-left: 500px;
+    border: 1px solid #c6c7cc;
+    font-size: 10px;
+}
+
+#form-text {
+    font-size: 10px;
+    color: #4C4C4C;
+}
+
+.links {
+    text-decoration: none;
+    color: #0077C5;
+}
+
+.form {
+    margin-top: 10px;
+}
+
+.text {
+    color: #4C4C4C;
+}
+
+.inside {
+    text-align: left;
+    margin-left: 40px;
+}
+
+.input {
+    width: 250px;
+    height: 30px;
+    margin-bottom: 10px;
+}
+
+#create {
+    background-color: #0077C5;
+    width: 250px;
+    height: 30px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    color: white;
+}
+
+.down {
+    font-size: 12px;
+}
