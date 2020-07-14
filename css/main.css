@@ -1,6 +1,7 @@
 body {
     background-color: #eceef1;
     float: center;
+    font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif
 }
 
 
@@ -10,35 +11,48 @@ body {
 /* navbar*/
 
 .navbar {
-    display: inline-block;
-    align-items: right;
+    
     width: 100%;
     height: 120px;
-    margin: 100px 5px;
+    margin: 0px;
+    text-decoration-color: rgba(80, 80, 80);
+    font-size: 12px;
+    padding: 0em;
 }
 
 #nav-text {
     text-align: right;
     width: 100%;
+    margin: 0px -70px;
+    padding: 5px;
+    padding-right: 80px;
+    
 }
 
 #forgot-link {
-    text-align: right;
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+    overflow: none;
     width: 100%;
+    margin-left: 300px;
+    padding-right: 30px;
+    cursor: pointer;  
 }
 
 #sign-bottom {
-    width: 100%;
     background-color: rgba(60, 60, 253, 0.801);
     color: white;
     border: 1px solid black;
     border-radius: 3px;
     height: 30px;
-    width: 10%;
+    margin-left: 10px;
+    margin-right: -20px;
+    margin-top: 5px;
     padding: 8px 11px;
-    align-items: right;
+    overflow: none;
+    
 }
-
 
 /* form*/
 
@@ -128,3 +142,36 @@ body {
 .down {
     font-size: 12px;
 }
+
+.footer {
+    text-align: center;
+    margin: auto;
+    margin-top: 30px;
+    padding: 0 0 10px 0;
+    width: 55%;
+    font-size: 12px;
+    line-height: 1.5;
+    color: #505050;
+    text-decoration: none;
+}
+
+.corporight {
+    color: #505050;
+    text-decoration: none;
+}
+
+.privacy-bttn {  
+    font-size: 8px;
+    background-color: #6B6C72;
+    border-radius: 3px;
+    margin: 0px;
+    margin-bottom: 0px;
+    padding: 0px;
+    padding-bottom: 0px;
+    cursor: pointer;
+    width: 8.4%;
+    margin-left: -5px;
+    float: left;
+}
+
+
