@@ -100,16 +100,16 @@ nav {
 .form-top {
     background-color: white;
     padding: 5px;
-    margin-right: 475px;
-    margin-left: 500px;
+    margin-right: 480px;
+    margin-left: 480px;
     border: 1px solid #c6c7cc;
 }
 
 .form-bottom {
     background-color: #ECEEF1;
     padding: 5px;
-    margin-right: 475px;
-    margin-left: 500px;
+    margin-right: 480px;
+    margin-left: 480px;
     border: 1px solid #c6c7cc;
     font-size: 10px;
 }
@@ -147,7 +147,7 @@ nav {
     background: linear-gradient(#0077C5, #0242f0);
     width: 250px;
     height: 30px;
-    margin-top: 5px;
+    margin-top: 10px;
     margin-bottom: 10px;
     border-radius: 8px;
     color: white;
