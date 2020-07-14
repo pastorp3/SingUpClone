@@ -8,11 +8,21 @@
     <title>Document</title>
 </head>
 <body>
-    <nav class="navbar">         
-        <p id="nav-text">Already have an Intuit account?</p> 
-        <a href="#" id="forgot-link">I forgot my User ID or Password</a>
-        <bottom id="sign-bottom">Sign in</bottom>
+<!-- Start nav bar-->
+    <nav>         
+        <ul class="align">
+            <ul class="list">
+                <li><p id="nav-text">Already have an Intuit account?</p></li>
+                <li><p><a href="#" class="links">I forgot my User ID or Password</a></p></li>
+            </ul>
+            <li class="list-element"><bottom id="sign-bttn">Sign in</bottom>
+            </li>
+        </ul>
     </nav>
+    <br>
+<!-- End nav bar-->
+
+<!-- Start main section-->
     <section class="container">
         <a href="#"><img id="logo" src="https://openid.net/wordpress-content/uploads/2016/07/Intuit-Logo-EPS-vector-image@2x.png"> </a>
     </section>    
@@ -25,34 +35,34 @@
         
     </section>
     <section class="form-center">
-        <form action="/login" method="post" class="container-down" style="margin-top: 10px;">
+        <form action="/login" method="post" class="container-down f" >
              <fieldset class="form-top">
-                    <h3 style="color: #4C4C4C">Create an Intuit account</h3>
+                    <h3 class="create">Create an Intuit account</h3>
                     <div id="form-text">
                         <p>One account for everything Intuit, including Mint.</p>
                         <a href="#" class="links" >Learn more.</a>
                     </div>
                     <div class="form">
-                        <label >
+                        <label for="emial" >
                             <p class="text inside">Email address</p>
-                            <input class="input" type="email" placeholder="account@email.com"><br>
+                            <input class="input" id="email" name="email" type="email" placeholder="account@email.com"><br>
                         </label>
-                        <label >
+                        <label for="tel">
                             <p class="text inside">Phone (recommended)</p>
-                            <input  class="input" type="tel" placeholder="(__) ____-___"><br> 
+                            <input  class="input" id="tel" name="tel" type="tel" placeholder="(__) ____-___"><br> 
                         </label>
-                        <label >
+                        <label for="password">
                             <p class="text inside">Password</p> 
-                            <input  class="input" type="password" placeholder="xxxxxxxxxx"> <br>
+                            <input  class="input" id="password" name="password" type="password" placeholder="xxxxxxxxxx"> <br>
                         </label>
-                        <label >
+                        <label for="confirm-password">
                             <p  class="text inside">Confirm password<p>
-                            <input class="input" type="password" > <br>
+                            <input class="input" id="confirm-password" name="confirm-password" type="password"><br>
                         </label>
-                        <label>
-                            <input  id="create" type="submit" value="Creat Account">
+                        <label for="submit">
+                            <input  id="submit" type="submit" name="submit" value="Creat Account">
                         </label>
-                        <label style="text-align:center; "><i>
+                        <label class="down-text"><i>
                         <p class="text down">By clicking Create account, you agree to our</p>
                         <p class="text down"><a class="links" href="#">Terms</a> and have read and acknowledge our<a class="links" href="#"> Privacy</a></p>
                         <p ><a class="links down" href="#">Statement</a></p></i>
@@ -70,19 +80,25 @@
         
         </form>
     </section>
+<!-- End main section-->
+
+ <!-- Start footer-->   
     <footer>
         <div class="footer">
-           <a href="#" class="corporight">Legal</a>
-           <a href="#" class="corporight">Privacy</a>
-           <a href="#" class="corporight">Security</a>
-           <p>2020 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax, ProConnect and Mint are registered 
-               trademarks of Intuit Inc. Terms and conditions, features, support, pricing, and service options subject to change without notice.
-            </p>
+            
+                <a href="#" class="corporight">Legal</a>
+                <a href="#" class="corporight">Privacy</a>
+                <a href="#" class="corporight">Security</a>
+                <p>2020 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax, ProConnect and Mint are registered 
+                    trademarks of Intuit Inc. Terms and conditions, features, support, pricing, and service options subject to change without notice.
+                </p>
+          
         </div>
-        <div class="privacy-bttn">
-            <button id="privacy">Privacy Settings</button>
+        <div>
+            <button  class="privacy-bttn">Privacy Settings</button>
         </div>
     </footer>
+<!-- End footer-->
 </body>
 </html>
     
