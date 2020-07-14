@@ -12,7 +12,7 @@
 <h3>Getting Started</h3>
 <hr>
 <p>Go to the code section of the repository and clone it with SSH in your local repository</p>
-<p>yhen you deploy the page, You should set the zoom in your browser in 100%, or just open it with the GitHub Desktop </p>
+<p>When you deploy the page, You should set the zoom in your browser in 100%, or just open it with the GitHub Desktop </p>
 
 
 <h3>Built With:</h3>
