@@ -3,19 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="css\reset.css" type="text/css" rel="stylesheet">
-    <link href="css\main.css" type="text/css" rel="stylesheet">
+    
+    <link href="css/main.css" type="text/css" rel="stylesheet">
     <title>Document</title>
 </head>
 <body>
 <!-- Start nav bar-->
     <nav>         
         <ul class="align">
-            <ul class="list">
-                <li><p id="nav-text">Already have an Intuit account?</p></li>
-                <li><p><a href="#" class="links">I forgot my User ID or Password</a></p></li>
-            </ul>
-            <li class="list-element"><bottom id="sign-bttn">Sign in</bottom>
+            <li>
+                <ul class="list">
+                    <li><p id="nav-text">Already have an Intuit account?</p></li>
+                    <li><p><a href="#" class="links">I forgot my User ID or Password</a></p></li>
+                </ul>
+            </li>
+            <li class="list-element"><input type="button" value="Sign in" id="sign-bttn">
             </li>
         </ul>
     </nav>
@@ -23,17 +25,17 @@
 <!-- End nav bar-->
 
 <!-- Start main section-->
-    <section class="container">
-        <a href="#"><img id="logo" src="https://openid.net/wordpress-content/uploads/2016/07/Intuit-Logo-EPS-vector-image@2x.png"> </a>
-    </section>    
-    <section class="container-down">   
+    <div class="container">
+        <a href="#"><img id="logo" alt="intuit logo"  src="https://openid.net/wordpress-content/uploads/2016/07/Intuit-Logo-EPS-vector-image@2x.png"> </a>
+    </div>    
+    <div class="container-down">   
         <ul class="list-center">
-            <li><a href="#"><img class="icon" src="https://digitalasset.intuit.com/IMAGE/A3OSvbxLf/logo-mint-footer.png"></a></li>
-            <li><a href="#"><img class="icon" src="https://digitalasset.intuit.com/IMAGE/A7Aq9134m/logo-quickbooks.png"></a></li>
-            <li><a href="#"><img class="icon" src="https://digitalasset.intuit.com/IMAGE/A4ldtKC3b/logo-turbotax.png"></a></li>
+            <li><a href="#"><img class="icon" alt="mint icon" src="https://digitalasset.intuit.com/IMAGE/A3OSvbxLf/logo-mint-footer.png"></a></li>
+            <li><a href="#"><img class="icon" alt="quickbooks icon" src="https://digitalasset.intuit.com/IMAGE/A7Aq9134m/logo-quickbooks.png"></a></li>
+            <li><a href="#"><img class="icon" alt="turbotax icon" src="https://digitalasset.intuit.com/IMAGE/A4ldtKC3b/logo-turbotax.png"></a></li>
         </ul>
         
-    </section>
+    </div>
     <section class="form-center">
         <form action="/login" method="post" class="container-down f" >
              <fieldset class="form-top">
@@ -43,38 +45,40 @@
                         <a href="#" class="links" >Learn more.</a>
                     </div>
                     <div class="form">
-                        <label for="emial" >
-                            <p class="text inside">Email address</p>
-                            <input class="input" id="email" name="email" type="email" placeholder="account@email.com"><br>
+                        <label  class="text inside" >
+                            Email address
+                             <input class="input"  name="email" type="email" placeholder="account@email.com"><br>
                         </label>
-                        <label for="tel">
-                            <p class="text inside">Phone (recommended)</p>
+                        <label for="tel" class="text inside">
+                            Phone (recommended)
                             <input  class="input" id="tel" name="tel" type="tel" placeholder="(__) ____-___"><br> 
                         </label>
-                        <label for="password">
-                            <p class="text inside">Password</p> 
+                        <label for="password" class="text inside">
+                            Password<br>
                             <input  class="input" id="password" name="password" type="password" placeholder="xxxxxxxxxx"> <br>
                         </label>
-                        <label for="confirm-password">
-                            <p  class="text inside">Confirm password<p>
+                        <label for="confirm-password" class="text inside">
+                           Confirm password
                             <input class="input" id="confirm-password" name="confirm-password" type="password"><br>
                         </label>
                         <label for="submit">
-                            <input  id="submit" type="submit" name="submit" value="Creat Account">
+                            <input  id="submit" type="submit" name="submit" value="Creat Account"><br>
                         </label>
-                        <label class="down-text"><i>
-                        <p class="text down">By clicking Create account, you agree to our</p>
-                        <p class="text down"><a class="links" href="#">Terms</a> and have read and acknowledge our<a class="links" href="#"> Privacy</a></p>
-                        <p ><a class="links down" href="#">Statement</a></p></i>
+                        <label class="down-text text down">
+                            <i>
+                            "By clicking Create account, you agree to our"
+                            <a class="links" href="#">Terms</a> and have read and acknowledge our<a class="links" href="#"> Privacy</a>
+                             <a class="links down" href="#">Statement</a>
+                             </i>
                         </label>
                         
                     </div>
             </fieldset>
 
             
-            <fieldset class="form-bottom" >     
+            <fieldset class="form-bottom text"  >     
                 <label>
-                    <p class="text">Invisible reCAPTCHA by Google <a class="links" href="#">Privacy Policy</a> and <a class="links" href="#">Terms of Use.</a></p>
+                    Invisible reCAPTCHA by Google <a class="links" href="#">Privacy Policy</a> and <a class="links" href="#">Terms of Use.</a>
                 </label>     
             </fieldset>
         

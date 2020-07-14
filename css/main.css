@@ -2,7 +2,6 @@
 
 body {
     background-color: #eceef1;
-    float: center;
     font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif
 }
 
@@ -47,6 +46,7 @@ nav {
     padding: 8px 15px 8px;
     line-height: 1.5px;
     margin: 0px;
+    height: 30px;
 }
 
 .list-element {
@@ -134,7 +134,7 @@ nav {
 
 .inside {
     text-align: left;
-    margin-left: 15px;
+    margin-left: 0;
 }
 
 .input {
