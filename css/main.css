@@ -1,11 +1,10 @@
 /* body */
 
-body  {
+body {
   background-color: white;
-  font-family: "AvenirNext", "Avenir", "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
+  font-family: "AvenirNext", "Avenir", "Helvetica Neue", "Arial", "sans-serif";
   color: #4c4c4c;
 }
-
 
 .form-center {
   display: flex;
@@ -33,7 +32,6 @@ nav {
 .list {
   list-style-type: none;
   margin-right: 5px;
-  
   margin-top: 2px;
   text-align: right;
 }
@@ -56,7 +54,7 @@ nav {
 
 #nav-text {
   line-height: 0;
-  margin-right: 5pxs;
+  margin-right: 5px;
 }
 
 .align-text {
@@ -83,7 +81,6 @@ nav {
   font-size: 20px;
   text-decoration: none;
   color: #4c4c4c;
-  text-decoration: bold;
   margin-right: 10px;
   margin-top: 3px;
 }
