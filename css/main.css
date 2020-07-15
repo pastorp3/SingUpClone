@@ -2,7 +2,7 @@
 
 body {
   background-color: #eceef1;
-  font-family: "AvenirNext", "Avenir", "Helvetica Neue", Helvetica, "Arial", "sans-serif";
+  font-family: "AvenirNext", "Avenir", "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
 }
 
 .form-center {
@@ -52,7 +52,6 @@ nav {
   margin-top: 25px;
   margin-left: 5px;
 }
-
 
 /* form */
 
@@ -156,7 +155,6 @@ nav {
 .down {
   font-size: 12px;
 }
-
 
 /* Fotter */
 
